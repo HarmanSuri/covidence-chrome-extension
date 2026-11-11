@@ -103,17 +103,24 @@ function updateCount(count) {
 }
 
 document.addEventListener("keydown", (e) => {
+  if (!enabled) {
+    return;
+  }
+
   // Prevent hotkeys when typing in input/textarea elements
   if (["INPUT", "TEXTAREA"].includes(document.activeElement.tagName)) return;
 
   const key = e.key.toLowerCase();
 
-  if (enabled && key === "e") {
+  if (key === "e") {
     startTimer();
   }
 });
 
 document.addEventListener("click", (e) => {
+  if (!enabled) {
+    return;
+  }
   let buttonType = e.target.dataset.pendoKey;
   if (autoStart && buttonType) {
     startTimer();
