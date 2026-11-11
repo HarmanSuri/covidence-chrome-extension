@@ -1,6 +1,8 @@
 # covidence-chrome-extension
 
 > **A Chrome extension to help with initial paper screening in Covidence**
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/f8d45cd5-0258-4fb1-9cd2-d911efe5c6ca" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/d7128d9c-883b-47af-854f-22dda12a1bee" />
 
 ---
 
