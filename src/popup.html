@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Covidence Speed Screener</title>
+        <link rel="stylesheet" type="text/css" href="popup.css">
+    </head>
+    <body id="popup-container">
+        <label class="switch">
+            Enable Extension:
+            <input id="enabled" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        <br>
+        <label class="switch">
+            Auto Start Timer:
+            <input id="auto-start" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        <br>
+        <label>
+            Scan Time:
+            <input 
+                id="scan-time"
+                type="number" 
+                min="1" 
+                step="1" 
+                placeholder="Scan time in secs"
+            >
+        </label>
+        <label>
+            Goal:
+            <input 
+                id="goal"
+                type="number" 
+                min="1" 
+                step="1" 
+                placeholder="Scan goal"
+            >
+        </label>
+        <button id="reset" type="button">Reset</button>
+        <script src="popup.js"></script>
+    </body>
+</html>

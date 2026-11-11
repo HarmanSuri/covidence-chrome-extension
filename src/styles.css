@@ -1,0 +1,15 @@
+#covidence-container {
+  position: sticky;
+  width: max-content;
+  bottom: 50%;
+  right: 50%;
+  background-color: #1e293b;
+  color: #f8fafc;
+  padding: 10px 8px;
+  border-radius: 8px;
+  font-family: monospace, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 999999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
